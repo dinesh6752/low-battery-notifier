@@ -39,7 +39,7 @@ def notify():
 	root=tkinter.Tk()
 	root.withdraw()
 	root.after(60000,suspend)
-	tkinter.messagebox.showwarning("Warning", "Your computer is about to suspend")
+	tkinter.messagebox.showwarning("Low Battery", "Your computer will suspend unless it is plugged in")
 
 
 def suspend():
